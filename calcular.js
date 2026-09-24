@@ -1,6 +1,8 @@
-import somar from './somar.js';
-var resultadoSoma,resultadosubtracao;
-resultadoSoma = somar(3,5);
-resultadosubitracao = subtrair(resultadoSoma,2);
+import operacao01 from "./operacao.js";
 
-console.log("O resultado da soma é: " + resultadoSoma);
+
+var resultado;
+
+resultado = operacao01(3,6,1);
+
+console.log(resultado);
